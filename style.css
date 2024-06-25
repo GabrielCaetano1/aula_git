@@ -1,0 +1,37 @@
+:root{
+    --color-00: #0C120C;
+    --color-01: #C20114;
+    --color-03: #6D7275;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+#navigation{
+    display: flex;
+}
+
+.container-fluid{
+    background-color: var(--color-03);
+    height: 10vh ;
+    display: flex;
+}
+
+
+.nav-item2 input{
+    padding-left: 12vw;
+    width: 30vw;
+    border: none;
+    border-radius: 6px;
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+.carousel-item img{
+    height: 60vh;
+}
